@@ -1,0 +1,81 @@
+.home-container{
+  min-height:100vh;
+  padding:40px;
+  background:#f5f7ff;
+}
+
+.hero{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+.hero h1{
+  font-size:42px;
+  color:#2563eb;
+}
+
+.hero p{
+  color:#555;
+  max-width:600px;
+  margin:auto;
+}
+
+.upload-card{
+  max-width:800px;
+  margin:auto;
+  background:#fff;
+  padding:30px;
+  border-radius:15px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.drop-zone{
+  border:2px dashed #2563eb;
+  padding:40px;
+  text-align:center;
+  border-radius:12px;
+  cursor:pointer;
+}
+
+.file-name{
+  margin-top:10px;
+  color:green;
+  font-weight:bold;
+}
+
+textarea{
+  width:100%;
+  height:180px;
+  margin-top:20px;
+  padding:10px;
+  border-radius:10px;
+  border:1px solid #ccc;
+}
+
+button{
+  width:100%;
+  margin-top:15px;
+  padding:15px;
+  background:#2563eb;
+  color:white;
+  border:none;
+  border-radius:10px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#1d4ed8;
+}
+
+.result-card{
+  margin-top:25px;
+  padding:20px;
+  border-radius:12px;
+  background:#f9fafb;
+  border:1px solid #ddd;
+}
+
+.result-card h2{
+  color:#2563eb;
+}
